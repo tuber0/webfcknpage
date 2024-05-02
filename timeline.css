@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+     
+ }
+
+ ul{
+     float: right;
+     list-style-type: none;
+     margin-top: 30px;
+     min-height: 40px;
+     margin-right: 60px;
+     font-size: 17px;
+ 
+ }
+ ul li{
+     display: inline-block;
+ }
+ ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.5 ease;
+ }
+ ul li a:hover{
+ background-color: #fff;
+ color: #000;
+ }
+ ul li.G a{
+ background-color: #fff;
+ color: #000;
+ }
+ .logo img{
+     float: left;
+     width: 100px;
+     height: auto;
+ }
+ .main{
+     max-width: 1200px;
+     margin: auto;
+ 
+ }

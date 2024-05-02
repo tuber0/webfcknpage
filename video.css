@@ -1,0 +1,93 @@
+body
+
+{
+    color: red;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin: 5;
+    padding: 5;
+    background-color: #bf1313;
+
+  background-image: url('slipknot1.jpg');
+
+}
+
+.audio-section, .lyrics-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.lyrics-container {
+    max-width: 600px;
+    margin: auto;
+    background-color:grey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+video
+{
+    position: center;
+}
+    .container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+      
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+     header{
+      ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 30px;
+        min-height: 40px;
+        margin-right: 60px;
+        font-size: 17px;
+    
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.5 ease;
+    }
+    ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    }
+    ul li.G a{
+    background-color: #fff;
+    color: #000;
+    }
+    .logo img{
+        float: left;
+        width: 100px;
+        height: auto;
+    }
+}
